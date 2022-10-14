@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar {
+    
+    float: left;
+    text-decoration: none;
+    background-color: rgb(33, 37, 41);
+    width: 100%;
+    height: 60px;
+}
+.item a{
+    color: #fff;
+}
+.first{
+    background-color: rgb(13, 110, 253);
+    width: 100%;
+    padding: 13rem;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+.item{
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    padding: 24px 16px;
+    list-style-type: none;
+    cursor: pointer;
+    padding-top: 15px;
+    background-color: rgb(33, 37, 41);
+    float: right;
+    
+    
+}
+.collapas{
+    
+    margin-right: 120px;
+}
+.first{
+    text-align: center;
+}
+.first h3{
+    
+    float: none;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+.first p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2rem;
+   
+   
+}
+.first a{
+    font-size: 1.25rem;
+    background-color: #F8F9FA;
+    padding: 20px 30px;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    font-weight: 300
+    
+}
+.second{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 50px;
+
+    
+}
+.second h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+.second p{
+    font-size: 20px;
+    margin: 0 0 16px;
+    color: #6c757d;
+    
+}
+.second ul{
+    font-size: 16px;
+    margin: 0 0 16px;
+    padding: 0 0 0 32px;
+}
+
+.finish{
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(33, 37, 41);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 16px;
+}
+
+
+
