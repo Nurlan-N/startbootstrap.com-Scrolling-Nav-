@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+.header{
+    overflow: auto;
+    padding: 3% 6%;
+    position: fixed;
+    width: 100%;
+
+}
+.logo a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.slider{
+    text-align: center;
+    padding: 20rem 0;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.slider h1{
+    font-size: 77px;
+    color: #fff;
+    margin: 0 0 8px;
+}
+hr{
+    width: 7%;
+    height:0.4rem;
+    margin: 30px auto;
+    border-radius: 3px;
+    border: none;
+
+}
+.slider hr{
+    border: #F4623A;
+    background-color: #F4623A;
+}
+.slider p{
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+a{
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.slider a{
+    background-color: #F4623A;
+    color: #fff;
+    padding: 25px 50px;
+    
+    
+}
+.about{
+    text-align: center;
+    color: #fff;
+    background-color: #F4623A;
+    padding: 8rem 0;
+}
+.about h2{
+    font-size: 42px;    
+}
+.about hr{
+    background-color: #fff;
+}
+.about p{
+    font-size: 25px;
+    margin: 0 0 50px;
+}
+.about a{
+    background-color: #fff;
+    padding: 25px 50px;
+    color: black;
+
+}
+.services{
+    text-align: center;
+    padding: 8rem 0;
+    width: 100%;
+}
+.services h2{
+    font-size: 45px;
+}
+.services hr{
+    background-color: #F4623A;
+    margin-bottom: 8rem;
+}
+.icon{
+    width: 23%;
+    float: left;
+    font-size: 25px;
+}
+.portfolio{
+    width: 100%;
+    padding: 8rem 0;
+}
+.box{
+    width: calc(100%/3);
+    float: left;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 1s;
+
+}
+.box img{
+    vertical-align: bottom;
+    width: 100%;
+    
+}
+.box:hover{
+    filter: grayscale(0);
+}
+.download{
+    background-color: rgba(33,37,41);
+    padding: 20rem 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 25rem;
+}
+.download h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    
+}
+.download a{
+    background-color: #fff;
+    color: black;
+}
+.contact{
+    width: 100%;
+    padding: 15rem 0;
+}
+.input{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+}
+.input input,textarea{
+    width: 100%;
+    padding: 16px 12px;
+    height: calc(3.5rem + 2px);
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.input hr{
+    background-color: #F4623A;
+}
+.input h2{
+    font-size: 32px;
+
+}
+.input textarea{
+    margin-bottom: 3rem;
+    height: 10rem;
+    width: 100%;
+    
+}
+.input a{
+    padding: 1.5rem 43%;
+    background-color: #F4623A;
+    color: #fff;
+    
+}
+.input p{
+    margin-top: 3rem;
+    font-size: 22px;
+}
+.finish{
+    padding: 3rem;
+    padding-top: 50px;
+    text-align: center;
+}
